@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 # 以“天气网”为例（你也可以换成其他公开API）
 url = "https://tianqi.2345.com/wea_fenlei/"
 
-# 模拟浏览器访问（防止被屏蔽）
+# 
 头信息 = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
